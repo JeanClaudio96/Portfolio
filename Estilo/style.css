@@ -84,20 +84,41 @@ nav>a{
 }
 
 .Quemsou{
+    display: grid;
+    grid-template-columns: 40% auto;
+    gap: 10px;
     text-align: justify;
     padding-top: 20vh;
     padding-bottom: 20vh;
 }
 
+.Quemsou>aside>img{
+    width: 250px;
+    height: calc(1.3*width);
+    opacity: 1;
+    margin: auto;
+    margin-left: 50px;
+}
+
 .Conhecimento{
+    display: grid;
+    grid-template-columns: 40% auto;
+    gap: 10px;
     text-align: justify;
     padding-top: 20vh;
     padding-bottom: 20vh;
+}
+
+.Conhecimento>aside>img{
+    width: 250px;
+    height: calc(1.23*width);
+    margin: auto;
+    margin-left: 50px;
 }
 
 .Projetos{
     display: inline-block;
-    text-align: justify;
+    text-align: center;
     padding-top: 20vh;
     padding-bottom: 20vh;
 }
@@ -119,10 +140,9 @@ footer{
 }
 
 footer>a{
-    padding: 10px 2px 1px 20px;
+    margin: 10px 2px 1px 20px;
     color: black;
     text-decoration: none;
-    margin:0;
 }
 
 footer>p{
